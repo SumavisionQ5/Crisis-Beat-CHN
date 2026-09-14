@@ -1,0 +1,31 @@
+# 忽略临时/构建产物
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+
+# 游戏镜像（体积大且可能涉及版权，不入库）
+*.bin
+*.cue
+*.img
+*.iso
+
+# 模拟器存档 / 运行时数据
+*.srm
+*.sstate
+*.state
+*.gci
+*.mcr
+*.mem
+
+# 中间 dump（研究过程产物，不入库）
+crash_*.bin
+*_vram.bin
+*_ram.bin
+font_*_v*.bin
+
+# 日志与错误输出
+*.log
+err*.txt
+out*.txt
